@@ -265,6 +265,34 @@ code {
   }
 }
 
+#skills,
+#contact {
+  padding: 32px;
+  text-align: center;
+  border-top: 1px solid var(--border);
+  @media (max-width: 1024px) {
+    padding: 24px 20px;
+  }
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tag {
+  font-family: var(--mono);
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: var(--social-bg);
+  color: var(--text-h);
+  border: 1px solid var(--border);
+}
+
 #spacer {
   height: 88px;
   border-top: 1px solid var(--border);
