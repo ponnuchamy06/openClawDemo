@@ -7,8 +7,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <img src="${heroImg}" class="base" width="170" height="179" alt="Portfolio avatar">
   </div>
   <div>
-    <h1>Suhani Sharma</h1>
-    <p>UI/UX Designer & Frontend Developer creating beautiful, user-centered digital experiences.</p>
+    <h1>Nihal</h1>
+    <p>Software Developer crafting robust, scalable applications with modern technologies.</p>
   </div>
   <button type="button" class="counter">View Projects</button>
 </section>
@@ -18,7 +18,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="next-steps">
   <div id="docs">
     <h2>About Me</h2>
-    <p>Creative designer with 3+ years of experience in UI/UX design and frontend development. Passionate about creating intuitive, accessible, and visually stunning digital products.</p>
+    <p>Passionate software developer with experience in building full-stack web applications. Love solving complex problems and writing clean, maintainable code.</p>
     <ul>
       <li><a href="#">Resume</a></li>
       <li><a href="#">LinkedIn</a></li>
@@ -26,10 +26,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
   <div id="social">
     <h2>Featured Projects</h2>
-    <p>E-commerce UI redesign, mobile banking app, healthcare dashboard, and design system for SaaS platform.</p>
+    <p>E-commerce platform, real-time chat application, task management tool, and RESTful API services.</p>
     <ul>
-      <li><a href="#">Behance</a></li>
-      <li><a href="#">Dribbble</a></li>
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">Portfolio</a></li>
     </ul>
   </div>
 </section>
@@ -38,23 +38,23 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
 <section id="skills">
   <h2>Skills & Tools</h2>
-  <p>Figma, Adobe XD, React, TypeScript, HTML/CSS, JavaScript, User Research, Wireframing, Prototyping, Design Systems.</p>
+  <p>JavaScript, TypeScript, React, Node.js, Python, Git, Docker, PostgreSQL, MongoDB, REST APIs, Tailwind CSS.</p>
   <div class="tags">
-    <span class="tag">Figma</span>
-    <span class="tag">Adobe XD</span>
+    <span class="tag">JavaScript</span>
     <span class="tag">React</span>
+    <span class="tag">Node.js</span>
+    <span class="tag">Python</span>
     <span class="tag">TypeScript</span>
-    <span class="tag">UI Design</span>
-    <span class="tag">UX Research</span>
-    <span class="tag">Prototyping</span>
-    <span class="tag">CSS</span>
+    <span class="tag">Docker</span>
+    <span class="tag">PostgreSQL</span>
+    <span class="tag">MongoDB</span>
   </div>
 </section>
 
 <div class="ticks"></div>
 <section id="contact">
   <h2>Get in Touch</h2>
-  <p>Looking for design collaborations, freelance projects, or full‑time UI/UX roles. Let's create something amazing together!</p>
+  <p>Looking for exciting software development opportunities. Let's build something great together!</p>
   <button type="button" class="counter">Contact Me</button>
 </section>
 
